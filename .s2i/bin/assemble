@@ -1,4 +1,6 @@
 echo '===='
 env
+echo 'ls /var/run/openshift.io/volumes/artifact-registry-user-build-volume'
+ls /var/run/openshift.io/volumes/artifact-registry-user-build-volume
 echo '===='
 . /usr/libexec/s2i/assemble
