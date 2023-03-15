@@ -1,6 +1,6 @@
 echo '===='
 env
-echo 'ls /var/run/openshift.io/volumes/artifact-registry-user-build-volume'
-ls /var/run/openshift.io/volumes/artifact-registry-user-build-volume
+echo "cat /opt/jboss/container/wildfly/s2i/galleon/settings.xml"
+cat /opt/jboss/container/wildfly/s2i/galleon/settings.xml
 echo '===='
 . /usr/libexec/s2i/assemble
