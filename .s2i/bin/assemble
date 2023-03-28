@@ -3,4 +3,4 @@ env
 echo "cat /opt/jboss/container/wildfly/s2i/galleon/settings.xml"
 cat /opt/jboss/container/wildfly/s2i/galleon/settings.xml
 echo '===='
-. /usr/libexec/s2i/assemble
+. /usr/local/s2i/assemble
