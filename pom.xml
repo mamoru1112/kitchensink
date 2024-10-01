@@ -163,7 +163,14 @@
     </dependencies>
 
     <build>
-        <!-- Set the name of the WAR, used as the context root when the app is deployed -->
-        <finalName>kitchensink</finalName>
+        <plugins>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-war-plugin</artifactId>
+              <configuration>
+                <warName>kitchensink</warName>
+              </configuration>
+            </plugin>
+          </plugins>
     </build>
 </project>
